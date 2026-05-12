@@ -182,3 +182,72 @@ footer {
 }
 
 
+/* responsive */
+/* tablette */
+
+@media screen and (max-width: 992px) {
+    .devant h1 {
+        font-size: 38px;
+        text-align: center;
+    }
+    .boutons {
+        top: 75%;
+    }
+    .pieds-contenu {
+        gap: 20px;
+    }
+}
+/* telephone */
+
+@media screen and (max-width: 768px) {
+    /* logo */
+    .logo {
+        position: static;
+        margin: 20px auto;
+        width: fit-content;
+    }
+    /* menu */
+    ul {
+        float: none;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    ul li a {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+    /* texte principal */
+    .devant {
+        width: 90%;
+        text-align: center;
+    }
+    .devant h1 {
+        font-size: 28px;
+    }
+    /* boutons */
+    .boutons {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    .boutons a {
+        display: block;
+    }
+    /* titres */
+    .titre {
+        font-size: 28px;
+    }
+    /* section */
+    .avantage {
+        padding: 25px;
+        font-size: 15px;
+    }
+    /* footer */
+    .pieds-contenu {
+        flex-direction: column;
+        text-align: center;
+    }
+}
