@@ -6,7 +6,7 @@
 
 /* ENTEte */
 header {
-    background-image: url(/images/about.jpg);
+    background-image: url(images/about.jpg);
     height: 150vh;
     background-size: cover;
     background-position: center;
